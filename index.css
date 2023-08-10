@@ -1,0 +1,530 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&family=Poiret+One:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.search-bars{
+    width: 220px !important;
+}
+
+.search-bar{
+    display: none !important;
+}
+
+.navbar-head{
+    font-weight: bold;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 99 !important;
+}
+
+
+.home-bar{
+    padding-left: 300px;
+}
+
+.nav-item{
+    padding-right: 10px;
+}
+
+.listing{
+    letter-spacing: 0.3rem;
+    background-color: #4E66F8 !important;
+    color:white !important ;
+}
+
+button.listing:hover{
+    background-color: blue !important;
+}
+
+
+
+.holiday{
+    color: #e83e8c ;
+    letter-spacing: 0.5rem;
+    margin: 0px;
+}
+
+.stay{
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+div.slide-images{
+    position: relative;
+}
+
+div.experience{
+    position: absolute;
+    background-color: #00000002;
+    top: 250px;
+    z-index: 1;
+    padding-left: 50px;
+}
+
+.bar{
+    background-color: white;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.what{
+    margin-left:10px;
+    width:250px;
+    height:40px;
+    border:none;
+    outline:none;
+    font-size:18px;
+}
+
+select.what:hover{
+    background-color:lightgrey;
+}
+
+.bar-search{
+    width:120px;
+    border-radius:30px;
+    height:40px;
+    margin-right:10px;
+    margin-top:0px;
+    background-color:#4E66F8;
+    color:white;
+    letter-spacing: 0.2rem;
+    border: none;
+}
+
+button.bar-search:hover{
+    background-color:blue;
+}
+
+.tool{
+    font-size: 35px;
+    padding: 10px;
+    color: white;
+}
+
+div.wrench-tool{
+    position: fixed;
+    top: 300px;
+    right: 0px;
+    z-index: 99;
+    border-radius:5px 0px 0px 5px !important;
+}
+
+.driver{
+    border-color:#4E66F8 ;
+    background-color:#4E66F8 ;
+    border-radius:5px 0px 0px 5px !important;
+}
+
+button.driver:hover{
+    background-color: blue;
+}
+
+.confidence{
+    background-color:#f8f9fa;
+    padding:  80px 50px 50px 50px ;
+}
+
+.kind{
+    color: #e83e8c;
+    letter-spacing: 0.2rem;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.easy{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.vacation{
+    text-align: center;
+}
+
+.rental{
+    display: flex;
+    justify-content: space-between;
+}
+
+.love-map{
+    font-size: 30px;
+    color: #4E66F8 ;
+    background-color: #a4aeec;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.map{
+    text-align: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.perfect{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.stay-eat{
+    color: #4E66F8;
+    letter-spacing: 0.2rem;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.guides{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.local{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.like-local{
+    padding: 100px 80px;
+}
+
+.new-york{
+    width: 230px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+img.new-york:hover{
+    box-shadow: 0 0.1rem 0.3rem rgba(21, 20, 20, 0.1);
+    margin-top: 5px;
+}
+
+img.barcelona:hover{
+    box-shadow: 0 0.1rem 0.3rem rgba(21, 20, 20, 0.1);
+    margin-top:  5px;
+}
+
+.barcelona{
+    width: 230px;
+    height: 345px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.images-text{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.new-text{
+    font-weight: bold;
+    margin: 0px;
+}
+
+.confidence-local{
+    padding: 100px 80px;
+    background-color: #f8f9fa;
+}
+
+.card-image1{
+    width: 100px;
+}
+
+.star{
+    display: flex;
+    justify-content: space-between;
+}
+
+.star-rating{
+    color: gold;
+}
+
+.card-image1{
+    position: relative;
+}
+
+.heart-image{
+    position: absolute;
+    top: 20px;
+    left: 235px;
+    right: 10px;
+    background-color: #00000030;
+    color: white;
+    padding: 10px;
+    border-radius: 70%;
+    font-size: 20px;
+}
+
+.amela-text{
+    position: absolute;
+    top: 138px;
+    left: 12px;
+}
+
+.amela-image{
+    width: 47px;
+    border-radius: 50%;
+}
+
+.card-images{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.main-card{
+    margin-top: 10px;
+}
+
+div.main-card:hover{
+    box-shadow: 0 0.1rem 0.3rem rgba(21, 20, 20, 0.1);
+    margin-top:  5px;
+}
+
+.holidays{
+    background-image: url("https://d19m59y37dris4.cloudfront.net/directory/2-0-2/img/photo/photo-1497436072909-60f360e1d4b1.jpg");
+    height: 70vh;
+    width: 100%;
+    background-position: center;
+    background-blend-mode:multiply ;
+    background-color: rgb(149, 145, 145);
+    background-size: 100% 100%;
+    padding: 180px 80px;
+}
+
+.ready-holiday{
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+    font-family: "Playfair Display", serif !important;
+}
+
+.get-started{
+    background-color: white !important;
+    letter-spacing: 0.2rem;
+    color: black !important;
+    font-weight: bold !important;
+}
+
+button.get-started:hover{
+    background-color: lightgray !important;
+}
+
+.testimonitals{
+    text-align: center;
+}
+
+.watson-card{
+    box-shadow: 0 0.1rem 0.3rem rgba(8, 8, 8, 0.1);
+    position: relative;
+}
+
+.watson-image{
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 110px;
+    left: -43px;
+}
+
+.jessica-watson{
+    padding-top: 50px;
+}
+
+.lorem{
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-row{
+    width: 144px;
+}
+
+i.directory-icon:hover{
+    color: #4E66F8;
+}
+
+.main-footer{
+    padding: 100px 80px;
+    background-color:  #f8f9fa ;
+}
+
+.rights-resrved{
+    background-color: #343a40 ;
+    padding: 10px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.extra-search{
+    display: none !important;
+}
+
+.all-images{
+    display: flex;
+}
+
+@media only screen and (min-width: 500px) {
+    .d-block{
+        width: 100vw;
+    }
+    .text-setup{
+        text-align: right !important;
+    }
+    div.images-text{
+        padding: 50px 80px 0px 80px;
+    }
+    div.card-images{
+        padding: 50px 80px 0px 80px;
+    }
+    .our-dear{
+        padding: 100px 190px;
+    }
+    div.card-body{
+        padding: 50px;
+        margin-left: 30px;
+    }
+    div.watson-card{
+        width: 30rem;
+    }
+    div.card-body{
+        padding: 30px; 
+        margin-left: 30px;
+    }
+    .card-images{
+        padding: 50px 80px 0px 80px;
+    }
+    .main-card{
+        width: 25rem;
+    }
+    .footer-cards{
+        text-align: right !important;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .input-search{
+        display: none !important;
+        margin-top: 20px !important;
+        width: 100%;
+    }
+    .home-bar{
+        padding-left: 0px;
+    }
+    .extra-search{
+        display: inline !important;
+    }
+    .listing{
+        width: 196px;
+    }
+    .d-block{
+        height: 100vh;
+    }
+    div.experience{
+        top:200px;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .stay{
+        font-size: 40px;
+    }
+    .bar{
+        width: 330px;
+        margin-left: 20px !important;
+    }
+    .easy{
+        font-size: 25px;
+    }
+    .confidence{
+        padding: 60px 0px;
+        display: block;
+    }
+    .map{
+        padding: 35px;
+    }
+    div.local{
+        padding: 0px !important;
+        display: block;
+    }
+    div.text-setup{
+        text-align: left !important;
+    }
+    .new-york{
+        width: 70vw;
+    }
+    .barcelona{
+        width: 70vw;
+    }
+    div.images-text{
+        padding: 2rem;
+    }
+    div.card-images{
+        padding: 2rem;
+    }
+    .holidays{
+        height: 70vh;
+        padding: 0px;
+    }
+    .ready-holiday{
+        font-size: 45px;
+        padding-top: 120px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+    }
+    .get-started{
+        margin-left: 20px;
+    }
+    .our-dear{
+    padding: 100px 0px;
+    }
+    div.card-body{
+        margin-left: 10px;
+    }
+    .watson-image{
+        top: -50px;
+        left: 120px;
+    }
+    .ipsum{
+        display: none;
+    }
+    .card-images{
+        padding: 0px;
+    }
+    .main-card{
+        width: 20rem;
+    }
+    .image-row{       
+    width: 94px;
+    }
+    .six-images{
+        display: none;
+    }
+    .main-footer{
+        padding: 50px 0px;
+    }
+    .ipsum-dolor{
+        margin: 0px;
+    }
+    .rentals{
+        margin-top: 45px;
+    }
+    .form-control{
+        width: 85% !important;
+    }
+    .rights-resrved{
+        padding: 30px 0px;
+        text-align: center;
+    }
+    .footer-cards{
+        text-align: center;
+    }
+    .tool{
+        display: none;
+    }
+    .wrench-tool{
+        display: none;
+    }
+}
